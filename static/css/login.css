@@ -1,1 +1,37 @@
+.login
+{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    align-items: center;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+input[type="email"]
+{
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    border-radius: 3px;
 
+}
+input[type="password"]
+{
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    border-radius: 3px;
+
+}
+.btn
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 80px;
+}
