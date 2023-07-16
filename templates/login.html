@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/login.css')}}">
+    </head>
+    <body>
+        <div class="error">
+            {{msg}}
+        </div>
+        <div class="login">
+            <form action="login" method="post">
+                <input type="email" placeholder="enter email" name="email" requried/><br>
+                <input type="password" placeholder="password" name="password" required/><br>
+                <input type="submit" value="submit" class="btn"/>
+                <a href="{{url_for('register')}}"><h3>For signup click Me!</h3></a>
+            </form>
+        </div>
+    </body>
+</html>
